@@ -1,0 +1,222 @@
+body{ 
+  background-color: #f5fafa;
+  font-family: 'inter', sans-serif;
+}
+.container{
+  background: var(--couleur-pricipale);
+  margin: auto;
+  width: auto;
+}
+/* variable d ecouleur */
+:root {
+  --couleur-pricipale: #f5fafa;
+  --couleur-entete:  #5205cf;
+  --size-entet: 20px;
+  --text-color: black;
+ }
+@media  screen and (max-width: 1499px) {
+  /* For desktop: */
+  .container{
+    width: 90%;
+  }
+
+  }
+  .entetgauche{
+    flex:100%;
+    width: auto;
+  }
+  .photo{
+    margin-top: 40px;
+  }
+  .c1{
+    flex:100%;
+    width: auto;
+  }
+.section1
+/* mise en frome de l'entête  */
+{
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-around;
+  color: var(--couleur-pricipale);
+  background-image: url(image/back.png);
+  background-color:var(--couleur-entete);
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+  var:var(--couleur-entete);
+  margin-bottom: 20px;
+}
+.Etêtgauche{
+  font-size: 20px;
+  width: auto;
+  height: 230px;
+}
+.contacts{
+  margin-top: -15px;
+  display: flex;
+  margin-right: 20px;
+}
+.c1{
+  margin: 15px;
+  margin-right: 10px;
+}
+
+.entetgauche{
+margin-left: auto;
+}
+
+img{
+  border-radius: 7px;
+  align-items: first end;
+}
+/* c'est la partie des colonne  */
+.profil{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+ 
+}
+.profil h3{ 
+  color: var(--text-color);
+  text-align: center;
+  font-size: 25px;
+  margin: 10px
+ 
+}
+.profiltext{
+ 
+  color: var(--text-color);
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+/* la mise en forme des diférentes partie de body */
+.content{
+  width: 100%;
+  margin-right: 20px;
+  color: var(--text-color);
+  display: flex; 
+  margin-bottom: 20px;
+}
+.droit{
+  margin-left: auto;
+   margin-left: 20px;
+}
+.gauche{
+  margin-left: 20px;
+}
+/* couleur des sous titre  */
+.exf{
+  color:var(--couleur-entete);
+}
+/* la base de la bar de prgression */
+.bar{
+  margin-left: 5px;
+  background: #353b48;
+  display: block;
+  height: 15px;
+  border: 1px solid, var(--text-color);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+
+}
+/* la seconde couleur de la bar de progression */
+.bar span{
+  height: 15px;
+  float: left;
+  background:var(--couleur-entete);
+}
+
+/* la seconde couleur de la bar de progression des langues */
+.bar  .lg {
+  height: 15px;
+  float: left;
+  background: #03d41f;
+}
+/* Pour la gestin de pourcentage  */
+.html{
+  width: 80%;
+  animation: html 3s;
+}
+.css{
+  width: 45%;
+  animation: css 3s;
+}
+.django{
+  width: 60%;
+  animation: django 3s;
+}
+.wordpress{
+  width: 90%;
+  animation: wprdpress 3s;
+}
+.java{
+  width: 70%;
+  animation: java 3s;
+}
+.python{
+  width: 40%;
+  animation: java 3s;
+}
+.fr{
+  width: 70%;
+  animation: java 3s;
+}
+.en{
+  width: 50%;
+  animation: java 3s;
+}
+.dogon{
+  width: 90%;
+  animation: java 3s;
+}
+.bambara{
+  width: 80%;
+  animation: java 3s;
+}
+/* la partie interet */
+.loisir{
+  width: 100%;
+  color: var(--text-color);
+  display: flex;
+}
+.interet{
+  margin-bottom: 10px;
+  width: 100%;
+ 
+
+}
+.loisir h5{
+  margin-bottom: 30px;
+  font-size: 15px;
+  margin-left : 40px;
+  font-weight: bold;
+}
+/* les trait verticales */
+.lign{
+  margin-top: 20px;
+  background-color:var(--couleur-entete);
+  width: 2px;
+  height: 240px;
+  
+}
+.icon{
+  margin-top: 40px; 
+  
+
+}
+
+.email{
+  margin-right: 0px;
+}
+.tel{
+  margin-left: 0px;
+}
+.experience{
+  width: 100%;
+}
